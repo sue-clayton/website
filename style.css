@@ -9,6 +9,8 @@
 
 body {
   background-color: #0a053c;
+  /* background-image: url(images/sue.jpg); */
+  background-repeat: no-repeat;
   color: white;
   font-family: 'Kodchasan', sans-serif;
   font-size: 20px;
@@ -54,7 +56,7 @@ footer {
 
 header,section,footer {
   padding: 30px;
-  margin:30px;
+  margin:10px;
 }
 
 h1, h2, h3 {
@@ -101,7 +103,23 @@ img {
   margin: 0 auto;
   }
 
-}
+.banner {
+  height: 200px;
+  width: 300px;
+  background-image: url(images/world.jpg);
+  background-size: 100%;
+  background-position: center;
+  }
+
+  .banner p{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+
+  }
 
 
 
